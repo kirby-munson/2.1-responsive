@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+/*HEADER*/
+
+.container {
+  max-width: 965px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url('https://images.unsplash.com/photo-1457299999196-427a06ea646d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=57b89f7c082fe81b2588e2f0ce9fdf59');
+  background-size: cover;
+  height: 420px;
+
+}
+
+header h1 {
+  display: block;
+  text-align: center;
+  color: white;
+  font-family: 'Yellowtail', cursive;
+  font-size: 65px;
+}
+
+/*BODY*/
+
+.square_photos {
+  font-size: 0;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.square_photos img{
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  object-fit: cover;
+  padding:0;
+}
+
+div .square {
+  width: 33.33%;
+  height: 300px;
+  display: inline-block;
+}
