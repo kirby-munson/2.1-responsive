@@ -22,6 +22,7 @@ header h1 {
   color: white;
   font-family: 'Bad Script', cursive;
   font-size: 65px;
+  width: 100%;
 }
 
 header img {
@@ -107,6 +108,11 @@ div .square {
   opacity:0;
   transition: all 250ms ease-in-out;
 
+}
+
+.google{
+  display: inline;
+  margin: 0px 0px 20px 0px;
 }
 
 .square:hover:after  {
@@ -239,8 +245,13 @@ footer {
 
 /*MEDIA QUERIES*/
 
-@media (max-width: 544px){
+@media (max-width: 480px){
   header h1{
+  width: 100%;
+  font-size: 30px;
+  }
+
+  .google {
     display: none;
   }
 
@@ -248,17 +259,34 @@ footer {
     width:50%;
     margin: 75px 0 0 105px;
   }
+
+  .contact h3 {
+    font-size: 30px;
+  }
+
+  #email {
+    font-size: 28px;
+    margin: 0 50px;
+  }
+
+  footer {
+    margin: 0 50px;
+  }
+
+  .info h2 {
+    display: none;
+  }
   #box {
     width: 100%;
     display: block;
   }
   #box2 {
     width: 100%;
-    display: block;
+    display: none;
   }
   #box3 {
     width: 100%;
-    display: block;
+    display: none;
   }
 }
 
@@ -267,17 +295,13 @@ footer {
     width:50%;
     margin: 75px 0 0 105px;
   }
-
-  header h1 {
-    display: none;
-  }
   #box {
     width: 100%;
-    display: block;
+    display: none;
   }
   #box2 {
     width: 100%;
-    display: block;
+    display: none;
   }
   #box3 {
     width: 100%;
@@ -287,9 +311,6 @@ footer {
 
 @media (max-width: 992px){
 
-  header h1 {
-    display: none;
-  }
   header img {
     width:50%;
     margin: 0 0 20px 105px;
