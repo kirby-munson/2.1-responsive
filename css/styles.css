@@ -1,12 +1,11 @@
-html {
+  html {
   box-sizing: border-box;
 }
 
 /*HEADER*/
 
 .container {
-  max-width: 965px;
-  margin: 0 auto;
+
 }
 
 header {
@@ -26,7 +25,7 @@ header h1 {
 }
 
 header img {
-  padding: 45px 0px 0px 0px;
+  max-width: 100%;
 }
 
 /*BODY*/
@@ -82,8 +81,12 @@ div .square {
   display: block;
 }
 
+.number {
+  text-align: center;
+}
+
 #email {
-  padding:0 110px 10px 0;
+  text-align: center;
 }
 
 hr {
@@ -110,11 +113,6 @@ div .square {
 
 }
 
-.google{
-  display: inline;
-  margin: 0px 0px 20px 0px;
-}
-
 .square:hover:after  {
   opacity: 1;
   background-color: rgba(150, 185, 226, 0.5);
@@ -128,7 +126,7 @@ div .square {
   height: 300px;
   display: inline-block;
   margin:5% auto 0 auto;
-  background:url(https://images.unsplash.com/photo-1444724834694-87238f9942f7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1a32043f93684ba76fccb5f9120aa888);
+  background:url(https://images.unsplash.com/uploads/14122621859313b34d52b/37e28531?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1b683dc52dd7d7d4a89f88532aeb5930);
   background-size:cover;
    overflow:hidden;
 }
@@ -240,6 +238,7 @@ footer {
   color: #212121;
   padding: 30px 0 10px 0;
   margin: 0 auto;
+  text-align: center;
 }
 
 
